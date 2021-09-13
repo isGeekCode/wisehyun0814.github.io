@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Gikko"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer who started as a musician."
+  bio              : "Github 공부할 겸, 복습할 겸 만드는 사이트"
   location         : "South Korea"
   email            : "ptuguitar@naver.com"
   links:
@@ -284,6 +284,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true # true
       share: true
       related: true
