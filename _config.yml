@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : # 블로그 댓글기능 # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # 블로그 댓글기능 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -103,13 +103,13 @@ analytics:
 author:
   name             : "Gikko"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Github 공부할 겸, 복습할 겸 만드는 사이트"
+  bio              : "Ultra learning : Being Developer 울트라러닝 개발자 프로젝트"
   location         : "South Korea"
-  email            : "ptuguitar@naver.com"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url : "ptuguitar@naver.com"      # url: "mailto:your.name@email.com"
+      url : "ptuguitar@naver.com"      #url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       url: "https://github.com/wisehyun0814"   # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/nylon.guitarist.bang/"   # url: "https://instagram.com/"
+      url: "https://www.instagram.com/nylon.guitarist.bang"   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/wisehyun0814"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -146,7 +146,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/nylon.guitarist.bang"
 
 
 # Reading Files
@@ -215,9 +215,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -287,3 +287,17 @@ defaults:
       comments: true # true
       share: true
       related: true
+      toc_ads: true
+      toc_sticky: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
