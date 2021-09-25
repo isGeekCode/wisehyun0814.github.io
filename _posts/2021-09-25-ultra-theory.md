@@ -1,5 +1,5 @@
 ---
-title: "웉르라러닝의 9가지 법칙"
+title: "울트라러닝의 9가지 법칙"
 excerpt: "개요"
 last_modified_at: 2021-09-25 T08:06:00-05:00
 categories:
@@ -9,6 +9,7 @@ tags:
   - Blog
   - ULP
   - Gikko
+  - UltraLearningProject
 ---
 
 ## 📌\[법칙 1\] 메타 학습: 먼저 지도를 그려라

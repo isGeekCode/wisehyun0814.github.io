@@ -1,6 +1,6 @@
 ---
 title: "Ultra Learning Project : Being Developer"
-excerpt: "웉르라러닝이란"
+excerpt: "울트라러닝이란"
 last_modified_at: 2021-09-24 T08:06:00-05:00
 categories:
   - UltraLearningProject
@@ -9,6 +9,7 @@ tags:
   - Blog
   - ULP
   - Gikko
+  - UltraLearningProject
 ---
 
 # 울트라러닝 개발자 되기
