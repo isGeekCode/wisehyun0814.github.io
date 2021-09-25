@@ -1,7 +1,7 @@
 ---
 title: "울트라러닝의 9가지 법칙"
 excerpt: "개요"
-last_modified_at: 2021-09-25 T08:06:00-05:00
+last_modified_at: 2021-09-24 T08:06:00-05:00
 categories:
   - UltraLearningProject
 tags:
