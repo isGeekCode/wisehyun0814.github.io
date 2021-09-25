@@ -6,11 +6,9 @@ categories:
   - UltraLearningProject
 tags:
   - content
-  - Blog
-  - ULP
-  - Gikko
   - UltraLearningProject
 ---
+
 
 > 내가 더 멀리 보고있다면 그건 거인의 어깨에 올라서 있기 때문이다. - 아이작 뉴턴
 

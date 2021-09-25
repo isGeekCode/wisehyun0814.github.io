@@ -6,11 +6,9 @@ categories:
   - UltraLearningProject
 tags:
   - content
-  - Blog
-  - ULP
-  - Gikko
   - UltraLearningProject
 ---
+
 
 ## 📌\[법칙 1\] 메타 학습: 먼저 지도를 그려라
 

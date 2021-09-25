@@ -4,6 +4,8 @@ main:
     url: https://h1guitar.tistory.com/
   - title: "Categories"
     url: /categories/
+  - title: "Tags"
+    url: /tags/  
   - title: "About"
     url: /about/
 

@@ -6,9 +6,6 @@ categories:
   - UltraLearningProject
 tags:
   - content
-  - Blog
-  - ULP
-  - Gikko
   - UltraLearningProject
 ---
 
